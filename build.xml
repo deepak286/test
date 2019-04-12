@@ -1,4 +1,4 @@
-<project name = "Hello World Project" default = "info">
+<project name = "test" default = "info">
    <target name = "info">
       <echo>Hello World - Ant Test !</echo>
    </target>
