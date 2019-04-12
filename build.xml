@@ -1,5 +1,13 @@
 <project name = "GitProjectTest1" default = "info">
+   
    <target name = "info">
       <echo>Hello World - Ant Test !</echo>
    </target>
+   
+   <target name = "unittest">
+      <junit haltonfailure = "true" printsummary = "true">
+         <test name = "com.tutorialspoint.UtilsTest"/>
+      </junit>
+   </target>
+   
 </project>
