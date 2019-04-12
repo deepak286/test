@@ -1,10 +1,10 @@
 <project name = "GitProjectTest1" default = "info">
    
-   <target name = "info">
+   <target name = "info" depends="unittest">
       <echo>Hello World - Ant Test !</echo>
    </target>
    
-   <target name = "unittest">
+   <target name = "unittest" depends = "junit">
       <echo>Junit target 1 !</echo>
       <junit haltonfailure = "true" printsummary = "true">
          <test name = "tests.SampleJunitTest"/>
