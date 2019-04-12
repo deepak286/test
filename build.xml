@@ -6,7 +6,7 @@
    
    <target name = "unittest">
       <junit haltonfailure = "true" printsummary = "true">
-         <test name = "com.tutorialspoint.UtilsTest"/>
+         <test name = "tests.SampleJunitTest"/>
       </junit>
    </target>
    
