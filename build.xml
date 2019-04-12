@@ -1,4 +1,4 @@
-<project name = "test" default = "info">
+<project name = "GitProjectTest1" default = "info">
    <target name = "info">
       <echo>Hello World - Ant Test !</echo>
    </target>
