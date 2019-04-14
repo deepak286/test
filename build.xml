@@ -17,13 +17,13 @@
     <junit printsummary="yes" haltonfailure="no">
 
 	<!-- Project classpath, must include junit.jar -->
-	<classpath refid="C:\Program Files (x86)\Jenkins\workspace\GitProjectTest1\lib" />
+	<classpath refid=${basedir}"\lib" />
 		
 	<!-- test class -->
-	<classpath location="C:\Program Files (x86)\Jenkins\workspace\GitProjectTest1" />
+	<classpath location=${basedir} />
 		
 	<test name="tests.SampleJunitTest" 
-		haltonfailure="no" todir="C:\Program Files (x86)\Jenkins\workspace\GitProjectTest1\Reports">
+		haltonfailure="no" todir=${basedir}"\Reports">
 		<formatter type="plain" />
 		<formatter type="xml" />
 	</test>
