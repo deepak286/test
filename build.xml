@@ -2,6 +2,7 @@
 
 <path id="classpath.test">
    <pathelement location="lib\junit-4.12.jar"/>
+	<pathelement location="lib\junit-jupiter-api-5.5.0-M1.jar"/>
   </path>
 
 	
