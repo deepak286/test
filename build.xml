@@ -13,6 +13,7 @@
    
    <target name="junit">
    <echo>Junit target 2 !</echo>
+	   <echo>base dir =>${basedir}</echo>
     <junit printsummary="yes" haltonfailure="no">
 
 	<!-- Project classpath, must include junit.jar -->
