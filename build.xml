@@ -11,8 +11,9 @@
    
 
    <target name="compile">
-    <javac srcdir="tests" destdir="tests" includeantruntime="false"/>
+    <javac srcdir="tests" destdir="tests" includeantruntime="false">
 	   <classpath refid="classpath.test"/>
+    </javac>
   </target>
 	
    <target name = "unittest" depends = "junit">
