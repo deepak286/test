@@ -1,7 +1,7 @@
 <project name = "GitProjectTest1" default = "info">
 
 <path id="classpath.test">
-   <pathelement location="{basedir}\lib\junit-4.12.jar"/>
+   <pathelement location="lib\junit-4.12.jar"/>
   </path>
 
 	
