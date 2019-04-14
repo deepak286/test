@@ -18,7 +18,7 @@
   </path>
 
 	
-   <target name = "info" depends="compile,unittest">
+   <target name = "info" depends="compile,junit">
       <echo>Hello World - Ant Test !</echo>
    </target>
    
@@ -29,12 +29,7 @@
     </javac>
   </target>
 	
-   <target name = "unittest" depends = "junit">
-      <echo>Junit target 1 !</echo>
-      <junit haltonfailure = "true" printsummary = "true">
-         <test name = "tests.SampleJunitTest"/>
-      </junit>
-   </target>
+  
    
    <target name="junit">
    <echo>Junit target 2 !</echo>
