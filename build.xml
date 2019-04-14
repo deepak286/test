@@ -5,10 +5,15 @@
   </path>
 
 	
-   <target name = "info" depends="unittest">
+   <target name = "info" depends="compile,unittest">
       <echo>Hello World - Ant Test !</echo>
    </target>
    
+
+   <target name="compile">
+    <javac srcdir="${builddir}/tests" destdir="${builddir}/tests" includeantruntime="false"/>
+  </target>
+	
    <target name = "unittest" depends = "junit">
       <echo>Junit target 1 !</echo>
       <junit haltonfailure = "true" printsummary = "true">
