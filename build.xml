@@ -1,4 +1,9 @@
 <project name = "GitProjectTest1" default = "info">
+
+<path id="classpath.test">
+    <pathelement location="lib/junit-4.12.jar"/>
+  </path>
+
 	
    <target name = "info" depends="unittest">
       <echo>Hello World - Ant Test !</echo>
