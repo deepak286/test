@@ -3,6 +3,17 @@
 <path id="classpath.test">
    <pathelement location="lib\junit-4.12.jar"/>
 	<pathelement location="lib\junit-jupiter-api-5.5.0-M1.jar"/>
+	<pathelement location="lib\mockito-core-2.25.1.jar"/>
+	<pathelement location="lib\apiguardian-api-1.0.0.jar"/>
+	<pathelement location="lib\assertj-core-3.12.2.jar"/>
+	<pathelement location="lib\assertj-db-1.2.0.jar"/>
+	<pathelement location="lib\assertj-guava-3.2.1.jar"/>
+	<pathelement location="lib\byte-buddy-1.9.7.jar"/>
+	<pathelement location="lib\byte-buddy-agent-1.9.7.jar"/>
+	<pathelement location="lib\common-1.26.95.jar"/>
+	<pathelement location="lib\junit-platform-commons-1.5.0-M1.jar"/>
+	<pathelement location="lib\objenesis-2.6.jar"/>
+	<pathelement location="lib\opentest4j-1.1.1.jar"/>
 	<pathelement path="{basedir}\lib"/>
   </path>
 
