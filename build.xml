@@ -12,7 +12,7 @@
    
 
    <target name="compile">
-    <javac srcdir="tests" destdir="tests" includeantruntime="false">
+    <javac srcdir="tests" destdir="" includeantruntime="false">
 	   <classpath refid="classpath.test"/>
     </javac>
   </target>
