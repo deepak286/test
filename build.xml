@@ -42,7 +42,7 @@
 		
 	<pathelement location="${basedir}"/>
 	</classpath>
-        <formatter type="brief" usefile="false" />
+        <formatter type="xml" />
         <batchtest>
             <fileset dir="${basedir}" includes="**/*SampleJunitTest.java" />
         </batchtest>
