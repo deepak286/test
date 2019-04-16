@@ -11,4 +11,8 @@ public class SampleJunitTest{
   {
       Assertions.assertTrue(true);
   }
+  @Test
+  public void test2(){
+    Assertions.assertTrue(false);
+  }
 }
